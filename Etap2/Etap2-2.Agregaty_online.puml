@@ -1,0 +1,60 @@
+@startuml
+top to bottom direction
+
+package "Cennik podstawowy" {
+    [Cennik podstawowy] as _cennik_podstawowy #LightGreen
+}
+
+package "Impreza"{
+    [Impreza] as _impreza #LightGreen
+}
+package "Cennik"{
+    [Cennik] as _cennik #LightGreen
+}
+
+package "Miejsca"{
+    [Miejsca] as _miejsca #LightGreen
+    [Cena] as _cena
+}
+
+package "Okna czasowe"{
+    [Okna czasowe] as _okna #LightGreen
+}
+
+package "Rezerwacja"{
+    [Rezerwacja] as _rezerwacja #LightGreen
+    [Zarezerwowane Miejsca] as _zarezerwowane_miejsca
+}
+
+package "Chwilowa rezerwacja"{
+    [Chwilowa rezerwacja] as _chwilowa_rezerwacja #LightGreen
+}
+
+package "Opłacona rezerwacja"{
+    [Opłacona rezerwacja] as _opłacona_rezerwacja #LightGreen
+}
+
+package "Typ miejsca"{
+    [Typ miejsca] as _typ_miejsca #LightGreen
+}
+_cennik --> _cena : "Definiuje ostateczną cenę"
+_miejsca --> _typ_miejsca: "Jest typu"
+
+_impreza --> _okna : "Zawiera"
+_okna --> _miejsca : "Mają dostępne"
+
+_cennik_podstawowy --> _miejsca : "Definiuje domyślną ceną"
+
+_miejsca --> _cena: "Posiada"
+' [Cennik podstawowy] --> [Example 1]
+
+_rezerwacja --> _zarezerwowane_miejsca: Posiada
+
+
+_chwilowa_rezerwacja --> _opłacona_rezerwacja : "Może zostać"
+
+_chwilowa_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+_opłacona_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+
+_miejsca --> _zarezerwowane_miejsca: "Są częścią"
+@enduml

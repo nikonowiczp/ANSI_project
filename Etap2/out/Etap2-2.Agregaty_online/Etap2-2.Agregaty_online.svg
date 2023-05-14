@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="548px" preserveAspectRatio="none" style="width:1056px;height:548px;background:#FFFFFF;" version="1.1" viewBox="0 0 1056 548" width="1056px" zoomAndPan="magnify"><defs/><g><!--MD5=[8600fcc1cd018bd43027c10a614035ca]
+cluster Cennik podstawowy--><g id="cluster_Cennik podstawowy"><path d="M537.5,152 L698.5,152 A3.75,3.75 0 0 1 701,154.5 L708,174.2969 L742.5,174.2969 A2.5,2.5 0 0 1 745,176.7969 L745,246.5 A2.5,2.5 0 0 1 742.5,249 L537.5,249 A2.5,2.5 0 0 1 535,246.5 L535,154.5 A2.5,2.5 0 0 1 537.5,152 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="535" x2="708" y1="174.2969" y2="174.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="160" x="539" y="166.9951">Cennik podstawowy</text></g><!--MD5=[70a313e77ea4e35257e937f9e4d8e43b]
+cluster Impreza--><g id="cluster_Impreza"><path d="M794.5,6 L858.5,6 A3.75,3.75 0 0 1 861,8.5 L868,28.2969 L917.5,28.2969 A2.5,2.5 0 0 1 920,30.7969 L920,100.5 A2.5,2.5 0 0 1 917.5,103 L794.5,103 A2.5,2.5 0 0 1 792,100.5 L792,8.5 A2.5,2.5 0 0 1 794.5,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="792" x2="868" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="796" y="20.9951">Impreza</text></g><!--MD5=[a72d2f7e9893949a7632c98b68b1c26c]
+cluster Cennik--><g id="cluster_Cennik"><path d="M880.5,298 L935.5,298 A3.75,3.75 0 0 1 938,300.5 L945,320.2969 L995.5,320.2969 A2.5,2.5 0 0 1 998,322.7969 L998,392.5 A2.5,2.5 0 0 1 995.5,395 L880.5,395 A2.5,2.5 0 0 1 878,392.5 L878,300.5 A2.5,2.5 0 0 1 880.5,298 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="878" x2="945" y1="320.2969" y2="320.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="54" x="882" y="312.9951">Cennik</text></g><!--MD5=[5a8ed009d4fb71c7aa7dfe03227c3884]
+cluster Miejsca--><g id="cluster_Miejsca"><path d="M732.5,298 L791.5,298 A3.75,3.75 0 0 1 794,300.5 L801,320.2969 L851.5,320.2969 A2.5,2.5 0 0 1 854,322.7969 L854,538.5 A2.5,2.5 0 0 1 851.5,541 L732.5,541 A2.5,2.5 0 0 1 730,538.5 L730,300.5 A2.5,2.5 0 0 1 732.5,298 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="730" x2="801" y1="320.2969" y2="320.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="58" x="734" y="312.9951">Miejsca</text></g><!--MD5=[9e8072837ac1ced506350a0238493b32]
+cluster Okna czasowe--><g id="cluster_Okna czasowe"><path d="M771.5,152 L887.5,152 A3.75,3.75 0 0 1 890,154.5 L897,174.2969 L940.5,174.2969 A2.5,2.5 0 0 1 943,176.7969 L943,246.5 A2.5,2.5 0 0 1 940.5,249 L771.5,249 A2.5,2.5 0 0 1 769,246.5 L769,154.5 A2.5,2.5 0 0 1 771.5,152 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="769" x2="897" y1="174.2969" y2="174.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115" x="773" y="166.9951">Okna czasowe</text></g><!--MD5=[3a2cf0095cab5633b3778d470ec82ba5]
+cluster Rezerwacja--><g id="cluster_Rezerwacja"><path d="M292.5,298 L384.5,298 A3.75,3.75 0 0 1 387,300.5 L394,320.2969 L525.5,320.2969 A2.5,2.5 0 0 1 528,322.7969 L528,538.5 A2.5,2.5 0 0 1 525.5,541 L292.5,541 A2.5,2.5 0 0 1 290,538.5 L290,300.5 A2.5,2.5 0 0 1 292.5,298 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="290" x2="394" y1="320.2969" y2="320.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="294" y="312.9951">Rezerwacja</text></g><!--MD5=[ba67d76991441cb33169a07e0d70ac26]
+cluster Chwilowa rezerwacja--><g id="cluster_Chwilowa rezerwacja"><path d="M32.5,298 L202.5,298 A3.75,3.75 0 0 1 205,300.5 L212,320.2969 L241.5,320.2969 A2.5,2.5 0 0 1 244,322.7969 L244,392.5 A2.5,2.5 0 0 1 241.5,395 L32.5,395 A2.5,2.5 0 0 1 30,392.5 L30,300.5 A2.5,2.5 0 0 1 32.5,298 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="30" x2="212" y1="320.2969" y2="320.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="169" x="34" y="312.9951">Chwilowa rezerwacja</text></g><!--MD5=[0e9bbfbc30e482918a57038c161fa8da]
+cluster Opłacona rezerwacja--><g id="cluster_Opłacona rezerwacja"><path d="M8.5,444 L175.5,444 A3.75,3.75 0 0 1 178,446.5 L185,466.2969 L219.5,466.2969 A2.5,2.5 0 0 1 222,468.7969 L222,538.5 A2.5,2.5 0 0 1 219.5,541 L8.5,541 A2.5,2.5 0 0 1 6,538.5 L6,446.5 A2.5,2.5 0 0 1 8.5,444 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="6" x2="185" y1="466.2969" y2="466.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="166" x="10" y="458.9951">Opłacona rezerwacja</text></g><!--MD5=[7d15fe7d1b4370c81ad7e24236e22403]
+cluster Typ miejsca--><g id="cluster_Typ miejsca"><path d="M554.5,444 L648.5,444 A3.75,3.75 0 0 1 651,446.5 L658,466.2969 L703.5,466.2969 A2.5,2.5 0 0 1 706,468.7969 L706,538.5 A2.5,2.5 0 0 1 703.5,541 L554.5,541 A2.5,2.5 0 0 1 552,538.5 L552,446.5 A2.5,2.5 0 0 1 554.5,444 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="552" x2="658" y1="466.2969" y2="466.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="93" x="556" y="458.9951">Typ miejsca</text></g><!--MD5=[3246057a2970d6890371f84907cac944]
+entity _cennik_podstawowy--><g id="elem__cennik_podstawowy"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="178" x="551" y="187"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="709" y="192"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="707" y="194"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="707" y="198"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="566" y="219.9951">Cennik podstawowy</text></g><!--MD5=[597f014d54f7026257b22b8d1c828aac]
+entity _impreza--><g id="elem__impreza"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="95" x="808.5" y="41"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="883.5" y="46"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="881.5" y="48"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="881.5" y="52"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="823.5" y="73.9951">Impreza</text></g><!--MD5=[a4814ca41491f71df2ddc9ffec7be023]
+entity _cennik--><g id="elem__cennik"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="88" x="894" y="333"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="962" y="338"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="960" y="340"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="960" y="344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="909" y="365.9951">Cennik</text></g><!--MD5=[dd137e347c97d3618daca3592afb576d]
+entity _miejsca--><g id="elem__miejsca"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="91" x="746.5" y="333"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="817.5" y="338"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="815.5" y="340"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="815.5" y="344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="761.5" y="365.9951">Miejsca</text></g><!--MD5=[3096264507b98bd94938d193224f3c34]
+entity _cena--><g id="elem__cena"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="76" x="755" y="479"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="811" y="484"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="809" y="486"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="809" y="490"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="770" y="511.9951">Cena</text></g><!--MD5=[12d6f9442b7d6874b72fa99c897fd5ab]
+entity _okna--><g id="elem__okna"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="141" x="785.5" y="187"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="906.5" y="192"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="904.5" y="194"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="904.5" y="198"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="800.5" y="219.9951">Okna czasowe</text></g><!--MD5=[5bde3e695f3e3b133b5dce055f7689b8]
+entity _rezerwacja--><g id="elem__rezerwacja"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="119" x="349.5" y="333"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="448.5" y="338"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="446.5" y="340"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="446.5" y="344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="79" x="364.5" y="365.9951">Rezerwacja</text></g><!--MD5=[a3c277fbb2da8ffad469aa8d1dc0f4cf]
+entity _zarezerwowane_miejsca--><g id="elem__zarezerwowane_miejsca"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="206" x="306" y="479"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="492" y="484"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="490" y="486"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="490" y="490"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="321" y="511.9951">Zarezerwowane Miejsca</text></g><!--MD5=[a4e68fab9e1c3a838a6c12759b102e82]
+entity _chwilowa_rezerwacja--><g id="elem__chwilowa_rezerwacja"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="182" x="46" y="333"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="208" y="338"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="206" y="340"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="206" y="344"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="61" y="365.9951">Chwilowa rezerwacja</text></g><!--MD5=[e1027b864b1be6b5911a11d4cd60d130]
+entity _opłacona_rezerwacja--><g id="elem__opłacona_rezerwacja"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="22.5" y="479"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="185.5" y="484"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="183.5" y="486"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="183.5" y="490"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="37.5" y="511.9951">Opłacona rezerwacja</text></g><!--MD5=[7b0b40353d122843710963d7d50d0a8d]
+entity _typ_miejsca--><g id="elem__typ_miejsca"><rect fill="#90EE90" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="121" x="568.5" y="479"/><rect fill="#90EE90" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="669.5" y="484"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="667.5" y="486"/><rect fill="#90EE90" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="667.5" y="490"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="583.5" y="511.9951">Typ miejsca</text></g><!--MD5=[794a8c5f49dc3d08e852159d74c821a6]
+link _cennik to _cena--><g id="link__cennik__cena"><path d="M915.66,379.18 C889.66,405.01 846.78,447.6 819.22,474.96 " fill="none" id="_cennik-to-_cena" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="815.6,478.55,824.8066,475.0517,819.1498,475.0288,819.1727,469.372,815.6,478.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="883" y="424.0669">Definiuje ostateczną cenę</text></g><!--MD5=[f9f6b0302a2b92b33e0cf38810b20379]
+link _miejsca to _typ_miejsca--><g id="link__miejsca__typ_miejsca"><path d="M764.87,379.04 C753.11,388.71 739.26,400.29 727,411 C702.7,432.23 675.74,457.09 656.26,475.29 " fill="none" id="_miejsca-to-_typ_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="652.46,478.84,661.762,475.6039,656.1081,475.4208,656.2913,469.7669,652.46,478.84" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="55" x="728" y="424.0669">Jest typu</text></g><!--MD5=[27c23b7f09bef5d656652ead84a95747]
+link _impreza to _okna--><g id="link__impreza__okna"><path d="M856,87.18 C856,112.48 856,153.86 856,181.27 " fill="none" id="_impreza-to-_okna" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="856,186.55,860,177.55,856,181.55,852,177.55,856,186.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="857" y="132.0669">Zawiera</text></g><!--MD5=[7acd7f137025152609d7eb42dca32922]
+link _okna to _miejsca--><g id="link__okna__miejsca"><path d="M846.14,233.18 C834.8,258.69 816.2,300.56 804.02,327.95 " fill="none" id="_okna-to-_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="801.98,332.55,809.2867,325.946,804.008,327.9798,801.9743,322.7011,801.98,332.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="832" y="278.0669">Mają dostępne</text></g><!--MD5=[70e013999eaeb7bc0e6d33a8e86d3a9a]
+link _cennik_podstawowy to _miejsca--><g id="link__cennik_podstawowy__miejsca"><path d="M641.42,233.19 C643.39,248.31 648.05,268.04 659,282 C679.9,308.64 713.35,326.94 741.48,338.55 " fill="none" id="_cennik_podstawowy-to-_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="746.3,340.5,739.448,333.4254,741.6626,338.6308,736.4572,340.8453,746.3,340.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="156" x="660" y="278.0669">Definiuje domyślną ceną</text></g><!--MD5=[a8f7d46cb42c409d2621bff800f270ff]
+link _miejsca to _cena--><g id="link__miejsca__cena"><path d="M792.15,379.18 C792.33,404.48 792.62,445.86 792.81,473.27 " fill="none" id="_miejsca-to-_cena" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="792.84,478.55,796.7627,469.516,792.7971,473.5502,788.763,469.5846,792.84,478.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="793" y="424.0669">Posiada</text></g><!--MD5=[fa84355746d0da6cd059c763cbfcb60c]
+link _rezerwacja to _zarezerwowane_miejsca--><g id="link__rezerwacja__zarezerwowane_miejsca"><path d="M409,379.18 C409,404.48 409,445.86 409,473.27 " fill="none" id="_rezerwacja-to-_zarezerwowane_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="409,478.55,413,469.55,409,473.55,405,469.55,409,478.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="50" x="410" y="424.0669">Posiada</text></g><!--MD5=[5b3152fab1433a8daf64bad99cfa1163]
+link _chwilowa_rezerwacja to _opłacona_rezerwacja--><g id="link__chwilowa_rezerwacja__opłacona_rezerwacja"><path d="M133.46,379.18 C129.4,404.58 122.75,446.21 118.37,473.61 " fill="none" id="_chwilowa_rezerwacja-to-_opłacona_rezerwacja" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="117.59,478.55,122.957,470.292,118.3772,473.6124,115.0568,469.0325,117.59,478.55" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="80" x="129" y="424.0669">Może zostać</text></g><!--MD5=[214bccdc82bc0095d719edb0a7275b0c]
+link _chwilowa_rezerwacja to _zarezerwowane_miejsca--><g id="link__chwilowa_rezerwacja__zarezerwowane_miejsca"><path d="M178.61,379.03 C228.3,405.34 311.17,449.21 362.81,476.55 " fill="none" id="_chwilowa_rezerwacja-to-_zarezerwowane_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="367.4,478.98,361.3255,471.2275,362.9835,476.636,357.5751,478.2939,367.4,478.98" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="265" y="424.0669">Rezerwuje</text></g><!--MD5=[79cac1183c7514bb45f142b5545bd996]
+link _opłacona_rezerwacja to _zarezerwowane_miejsca--><g id="link__opłacona_rezerwacja__zarezerwowane_miejsca"><path d="M205.72,502 C235.7,502 269.29,502 300.39,502 " fill="none" id="_opłacona_rezerwacja-to-_zarezerwowane_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="305.76,502,296.76,498,300.76,502,296.76,506,305.76,502" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="64" x="223.75" y="495.0669">Rezerwuje</text></g><!--MD5=[3acb12cdb3962798fa4917e817173315]
+link _miejsca to _zarezerwowane_miejsca--><g id="link__miejsca__zarezerwowane_miejsca"><path d="M746.36,370.4 C697.69,385.07 618.6,409.99 552,436 C520.54,448.28 486.06,463.89 458.83,476.74 " fill="none" id="_miejsca-to-_zarezerwowane_miejsca" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="454.19,478.94,464.0364,478.7196,458.7125,476.8076,460.6245,471.4836,454.19,478.94" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="68" x="618" y="424.0669">Są częścią</text></g><!--MD5=[2543f553977d6af93653eba28126539e]
+@startuml
+top to bottom direction
+
+package "Cennik podstawowy" {
+    [Cennik podstawowy] as _cennik_podstawowy #LightGreen
+}
+
+package "Impreza"{
+    [Impreza] as _impreza #LightGreen
+}
+package "Cennik"{
+    [Cennik] as _cennik #LightGreen
+}
+
+package "Miejsca"{
+    [Miejsca] as _miejsca #LightGreen
+    [Cena] as _cena
+}
+
+package "Okna czasowe"{
+    [Okna czasowe] as _okna #LightGreen
+}
+
+package "Rezerwacja"{
+    [Rezerwacja] as _rezerwacja #LightGreen
+    [Zarezerwowane Miejsca] as _zarezerwowane_miejsca
+}
+
+package "Chwilowa rezerwacja"{
+    [Chwilowa rezerwacja] as _chwilowa_rezerwacja #LightGreen
+}
+
+package "Opłacona rezerwacja"{
+    [Opłacona rezerwacja] as _opłacona_rezerwacja #LightGreen
+}
+
+package "Typ miejsca"{
+    [Typ miejsca] as _typ_miejsca #LightGreen
+}
+_cennik - -> _cena : "Definiuje ostateczną cenę"
+_miejsca - -> _typ_miejsca: "Jest typu"
+
+_impreza - -> _okna : "Zawiera"
+_okna - -> _miejsca : "Mają dostępne"
+
+_cennik_podstawowy - -> _miejsca : "Definiuje domyślną ceną"
+
+_miejsca - -> _cena: "Posiada"
+' [Cennik podstawowy] - -> [Example 1]
+
+_rezerwacja - -> _zarezerwowane_miejsca: Posiada
+
+
+_chwilowa_rezerwacja - -> _opłacona_rezerwacja : "Może zostać"
+
+_chwilowa_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+_opłacona_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+
+_miejsca - -> _zarezerwowane_miejsca: "Są częścią"
+@enduml
+
+@startuml
+top to bottom direction
+
+package "Cennik podstawowy" {
+    [Cennik podstawowy] as _cennik_podstawowy #LightGreen
+}
+
+package "Impreza"{
+    [Impreza] as _impreza #LightGreen
+}
+package "Cennik"{
+    [Cennik] as _cennik #LightGreen
+}
+
+package "Miejsca"{
+    [Miejsca] as _miejsca #LightGreen
+    [Cena] as _cena
+}
+
+package "Okna czasowe"{
+    [Okna czasowe] as _okna #LightGreen
+}
+
+package "Rezerwacja"{
+    [Rezerwacja] as _rezerwacja #LightGreen
+    [Zarezerwowane Miejsca] as _zarezerwowane_miejsca
+}
+
+package "Chwilowa rezerwacja"{
+    [Chwilowa rezerwacja] as _chwilowa_rezerwacja #LightGreen
+}
+
+package "Opłacona rezerwacja"{
+    [Opłacona rezerwacja] as _opłacona_rezerwacja #LightGreen
+}
+
+package "Typ miejsca"{
+    [Typ miejsca] as _typ_miejsca #LightGreen
+}
+_cennik - -> _cena : "Definiuje ostateczną cenę"
+_miejsca - -> _typ_miejsca: "Jest typu"
+
+_impreza - -> _okna : "Zawiera"
+_okna - -> _miejsca : "Mają dostępne"
+
+_cennik_podstawowy - -> _miejsca : "Definiuje domyślną ceną"
+
+_miejsca - -> _cena: "Posiada"
+
+_rezerwacja - -> _zarezerwowane_miejsca: Posiada
+
+
+_chwilowa_rezerwacja - -> _opłacona_rezerwacja : "Może zostać"
+
+_chwilowa_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+_opłacona_rezerwacja -> _zarezerwowane_miejsca: "Rezerwuje"
+
+_miejsca - -> _zarezerwowane_miejsca: "Są częścią"
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

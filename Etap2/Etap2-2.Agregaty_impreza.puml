@@ -1,0 +1,28 @@
+@startuml
+top to bottom direction
+
+package "Punkt zamówień" {
+    [Punkt zamówień] as _punkt_zamowien #LightGreen
+}
+package "Punkt odbioru" {
+    [Punkt odbioru] as _punkt_odbioru #LightGreen
+}
+package "Cennik produktów"{
+    [Cennik produktów] as _cennik_towarow #LightGreen
+}
+package "Produkt"{
+    [Produkt] as _produkt #LightGreen
+    [Dostępność dla nieletnich] as _dostepnosc
+}
+package "Zamówienie"{
+    [Zamówienie] as _zamowienie #LightGreen
+    [Lista towarów] as _lista_towarow
+}
+
+_zamowienie --> _lista_towarow : Składa się z
+_punkt_zamowien -> _zamowienie : Tworzy
+_punkt_odbioru -> _zamowienie : Ustawia jako zakończone 
+_cennik_towarow -l-> _produkt : Definiuje cenę
+_lista_towarow -> _produkt: Składa się z 
+_produkt -->_dostepnosc: Definiuje dostępność
+@enduml

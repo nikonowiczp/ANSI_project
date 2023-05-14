@@ -1,0 +1,111 @@
+@startuml
+Actor User as _user
+Participant Impreza as _impreza
+Participant "Okno Czasowe" as _okno
+Participant Miejsca as _miejsca
+Participant "Chwilowa rezerwacja" as _chwilowa_rezerwacja
+Participant "System płatności" as _system_platnosci
+Participant "Opłacona rezerwacja" as _oplacona_rezerwacja
+Participant System as _system
+
+legend right
+    |Kolor| Typ |
+    |<#Blue>| Komenda |
+    |<#Orange>| Zdarzenie |
+    |<#Green>| Akcja asynchroniczna |
+endlegend
+_user -> _impreza: Pyta o dostępne imprezy
+return Xwraca informację o imprezach
+_user -> _user: Wybiera imprezę
+
+_user -> _okno: Pyta o dostępne okna czasowe
+return Zwraca informację o oknach czasowych
+_user -> _user: Wybiera okno czasowe
+
+_user -> _miejsca: Pyta o miejsca wraz z ich cenami
+return Zwraca informację o miejscach wraz z ich cenami
+
+_user -> _user : Wybiera miejsca do rezerwacji
+
+alt Przypadek pozytywny
+
+_user -[#blue]> _miejsca: Rezerwuje miejsca na seans
+
+activate _miejsca
+_miejsca -> _miejsca: Rezerwacja
+activate _chwilowa_rezerwacja
+_miejsca -> _chwilowa_rezerwacja: Utworzenie rezerwacji
+_chwilowa_rezerwacja -> _miejsca: Pobranie ceny zaliczki i pełnej ceny
+_miejsca -[dashed]-> _chwilowa_rezerwacja: Zwrot informacji
+_chwilowa_rezerwacja -[#Orange]-> _system : Zdarzenie: Rezerwacja biletów
+_system [#Green]-> _user: Mail o utworzonej chwilowej rejestracji 
+deactivate _miejsca
+deactivate _chwilowa_rezerwacja
+
+
+else Miejsca nie są dostępne
+
+ _user -[#Blue]> _miejsca: Rezerwuje miejsca na seans
+_miejsca -[dashed]-> _user: Zwraca błąd
+
+end
+
+alt Płatność rozpoczęta na czas
+
+_user -> _chwilowa_rezerwacja : Rozpoczęcie płatności
+
+activate _chwilowa_rezerwacja
+
+activate _user
+_chwilowa_rezerwacja -> _user: Zapytanie o wielkość płatności
+alt Płatność pełna
+_user -> _chwilowa_rezerwacja: Rozpoczęcie płatności pełnej kwoty
+else Płatność tylko zaliczki
+_user -> _chwilowa_rezerwacja: Rozpoczęcie płatności zaliczki
+end
+_chwilowa_rezerwacja -[#Orange]-> _system: Zdarzenie: Rozpoczęcie płatności
+
+_chwilowa_rezerwacja -> _system_platnosci : Rozpocznij płatność
+_system_platnosci -> _user : Przekierowanie na stronę płatności
+_user -> _user: Platność
+_user [#Blue]-> _system_platnosci: Opłacono
+_system_platnosci -[#Orange]-> _system: Zdarzenie: płatność zakończona sukcesem
+_system_platnosci -->_chwilowa_rezerwacja:Opłacono
+_chwilowa_rezerwacja -> _oplacona_rezerwacja: Zmienia się w 
+destroy _chwilowa_rezerwacja 
+activate _oplacona_rezerwacja
+_oplacona_rezerwacja -[#Orange]->_system: Zdarzenie: Rezerwacja jest opłacona
+_oplacona_rezerwacja -> _oplacona_rezerwacja: Generowanie biletów oraz voucherów
+_oplacona_rezerwacja [#Green]-> _user: Wysłanie biletów
+_oplacona_rezerwacja -[#Orange]->_system: Zdarzenie: Rezerwacja jest opłacona i wysłana
+deactivate _oplacona_rezerwacja
+
+
+else Brak płatności w przeznaczonym czasie
+_chwilowa_rezerwacja [#Green]-> _miejsca: Zatrzymanie rezerwacji
+activate _miejsca
+activate _chwilowa_rezerwacja
+_miejsca -> _miejsca : Zwolnienie rezerwacji
+_chwilowa_rezerwacja -[#Orange]->_system: Zdarzenie: Rezerwacja zerwana
+destroy _chwilowa_rezerwacja
+deactivate _miejsca
+
+_system [#Green]-> _user: Mail o zerwaniu rezerwacji
+end
+
+opt Zerwanie opłaconej rezerwacji
+_user [#Blue]-> _oplacona_rezerwacja: Informacja o zerwaniu
+activate _oplacona_rezerwacja
+activate _miejsca
+_oplacona_rezerwacja -[#Orange]-> _system: Opłacona rezerwacja zerwana
+opt Płatność była pełna
+_oplacona_rezerwacja -> _system_platnosci: Rozpoczęcie zwrotu
+_oplacona_rezerwacja -[#Orange]-> _system: Wymagany zwrot pieniędzy
+_system [#Green]->_user: Mail o zwrocie gotowki
+_system_platnosci [#Green]->_user : Zwrot pieniędzy
+end
+_oplacona_rezerwacja -> _miejsca: Informacja o zakończeniu rezerwacji
+destroy _oplacona_rezerwacja
+_miejsca -> _miejsca : zwolnienie rezerwacji
+end
+@enduml
