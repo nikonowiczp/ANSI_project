@@ -1,0 +1,84 @@
+@startuml
+!include <kubernetes/k8s-sprites-unlabeled-25pct>
+!define osaPuml https://raw.githubusercontent.com/xeruf/PlantUML-opensecurityarchitecture2-icons/main
+!include osaPuml/Common.puml
+!include osaPuml/User/all.puml
+!include osaPuml/Hardware/all.puml
+!include osaPuml/Misc/all.puml
+!include osaPuml/Server/all.puml
+!include osaPuml/Site/all.puml
+!define ICONURL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/v2.2.0
+!includeurl ICONURL/font-awesome-5/gitlab.puml
+!include <osa/firewall/firewall.puml>
+'skinparam linetype polyline
+skinparam linetype ortho
+
+'left to right direction
+top to bottom direction
+
+skinparam ranksep 150
+skinparam nodesep 50
+
+package "Cennik" as _cennik_service{
+    package "Cennik produktów"{
+        [Cennik produktów] as _cennik_towarow #LightGreen
+    }
+    osa_database(_dbcennik, "Baza danych ","relacyjna","Konieczność definiowania cennika w zależności od punktu zamówień, godziny, ofert specjalnych")
+}
+
+package "Produkty" as _produkty_service{
+    package "Produkt"{
+        [Produkt] as _produkt #LightGreen
+        [Dostępność dla nieletnich] as _dostepnosc 
+    }
+
+    osa_database(_dbproducts, "Baza danych ","relacyjna","Konieczność wyboru")
+}
+
+
+package "Zamówienia serwis" as _zamowienia_serwis {
+    package "Zamówienia" {
+        [Zamówienie] as _zamowienie #LightGreen
+        [Lista towarów] as _lista_towarow
+    }
+     osa_database(_dbzamówienia, "Baza danych ","dokumentowa","Jedno zamówienie to jeden dokument")
+}
+
+package "Punkt zamówień" as _punkt_zamowien_serwis {
+    package "Punkt zamówień" {
+        [Punkt zamówień] as _punkt_zamowien #LightGreen
+    }
+}
+package "Punkt odbioru" as _punkt_odbioru_serwis {
+    package "Punkt odbioru" {
+        [Punkt odbioru] as _punkt_odbioru #LightGreen
+    }
+}
+
+
+package "Stan magazynowy" as _magazyn_service{
+    package "Stan magazynowy" {
+        [Stan magazynowy] as _stan_magazynowy #LightGreen
+    }
+    osa_database(_dbmagazyn, "Baza danych ","key value","Jedynie potrzebne powiązanie ID - aktualny stan")
+
+}
+
+_zamowienie --> _lista_towarow : Składa się z
+_produkt -->_dostepnosc: Definiuje dostępność
+
+
+
+_zamowienia_serwis <-[#Green]- _punkt_odbioru_serwis:<color:Green> Ustawianie jako wydane, async 
+_zamowienia_serwis <-- _punkt_zamowien_serwis : Tworzenie zamówienia, async
+_zamowienia_serwis -----> _cennik_service: Pobieranie ceny i dostępnych produktów, sync
+_zamowienia_serwis -----> _magazyn_service: Potwierdzanie możliwości wydania zamówienia, sync
+
+
+_punkt_zamowien_serwis --> _cennik_service: Pobieranie danych o dostępnych towarach i cenie, sync
+_cennik_service --> _produkty_service : Definiuje cenę, sync
+
+_magazyn_service -> _produkty_service: Pobieranie id produktów, sync
+
+_punkt_zamowien_serwis --> _magazyn_service: Pobieranie aktualnego stanu produktów, async
+@enduml
