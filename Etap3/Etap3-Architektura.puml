@@ -69,8 +69,8 @@ _produkt -->_dostepnosc: Definiuje dostępność
 
 
 
-_zamowienia_serwis <-[#Green]- _punkt_odbioru_serwis:<color:Green> Ustawianie jako wydane, async 
-_zamowienia_serwis <-- _punkt_zamowien_serwis : Tworzenie zamówienia, async
+_zamowienia_serwis <-[#Green]- _punkt_odbioru_serwis:<color:Green> Ustawianie jako wydane, sync 
+_zamowienia_serwis <-- _punkt_zamowien_serwis : Tworzenie zamówienia, sync
 _zamowienia_serwis -----> _cennik_service: Pobieranie ceny i dostępnych produktów, sync
 _zamowienia_serwis -----> _magazyn_service: Potwierdzanie możliwości wydania zamówienia, sync
 
